@@ -6,4 +6,10 @@
 
 # Hier start de for-loop
 
-my_list = []
+results = []
+
+for i in range(3, 82, 3):
+    result = (i ** 2) / 3
+    results.append(result)
+
+print(results)

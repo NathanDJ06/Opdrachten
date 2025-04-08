@@ -6,4 +6,7 @@
 
 # Hier start de for-loop
 
-my_list = []
+letterx = range(1, 10)
+y = [4 * x + 7 for x in letterx]
+
+print(y)
