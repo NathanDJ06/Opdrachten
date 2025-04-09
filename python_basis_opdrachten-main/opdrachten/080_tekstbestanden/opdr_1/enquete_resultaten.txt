@@ -1,0 +1,10 @@
+=== Nieuwe enquête resultaten ===
+Vraag 1: Wat vind je van de huidige regering? 
+Antwoord: leuk
+
+Vraag 2: Wat vind je van de Python-lessen tot nu toe? 
+Antwoord: leuk
+
+Vraag 3: Wat vind jij de mooiste stad van Nederland? 
+Antwoord: leuk
+
