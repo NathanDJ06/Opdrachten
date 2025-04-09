@@ -4,10 +4,11 @@
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
-
+    for persoon in lijst_met_namen:
+        # Voeg onderdelen samen, en verwijder lege strings
+        onderdelen = [persoon["voornaam"], persoon["tussenvoegsel"], persoon["achternaam"]]
+        naam = " ".join(deel for deel in onderdelen if deel)
+        print(naam)
 
 namen = [
     {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
